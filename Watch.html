@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="C:\Users\pavan\Downloads\Watch.css">
+	<title>Watch</title>
+</head>
+<style>
+  body 
+{
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+nav 
+{
+    background-color: lightskyblue;
+    color: black;
+    text-align: left;
+    padding: 10px 0;
+}
+nav a 
+{
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+h1, h2, h3 
+{
+    text-align: center;
+}
+.container 
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container img 
+{
+    width: 15%;
+    max-width: 550px;
+    height: 300px;
+    border: 10px solid rgb(241, 238, 238);
+}
+.image-container 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.image-container img 
+{
+    width: 100%;
+    max-height: 500px;
+    border: 5px solid rgb(241, 238, 238);
+    box-sizing: border-box;
+}
+footer 
+{
+    text-align: center;
+    padding: 1px;
+    background-color: lightblue;
+    color: black;
+    margin-top: 100px;
+}
+.animated-heading {
+    animation-name: slideInLeft; /* Name of the animation */
+    animation-duration: 2s; /* Duration of the animation */
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%); /* Start position of the animation */
+    }
+    to {
+        transform: translateX(0); /* End position of the animation */
+    }
+}
+h2 {
+  font-size: 3em; /* Match size to h1 */
+  color: black; /* Different color if needed */
+  margin: 0; /* Remove default margin */
+}
+h3 {
+  font-size: 2em; /* Match size to h1 */
+  color: black; /* Different color if needed */
+  margin: 0; /* Remove default margin */
+}
+/* Container to handle the overflow and animation */
+.heading-container {
+  overflow: hidden; /* Hide anything outside the container */
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
+  position: relative;
+  width: 100%; /* Full width of the parent container */
+  background: #f4f4f4; /* Optional: Background color for better visibility */
+}
+
+/* Heading styling */
+h2 {
+  display: inline-block; /* Keep the heading in one line */
+  font-size: 2em; /* Adjust size as needed */
+  color: black; /* Text color */
+  white-space: nowrap; /* Prevent wrapping */
+  animation: pulse 2s ease-in-out infinite; /* Animation properties */
+}
+
+/* Keyframes for pulse effect */
+@keyframes pulse {
+  0% {
+    transform: scale(1); /* Initial scale */
+    opacity: 1; /* Initial opacity */
+  }
+  50% {
+    transform: scale(1.1); /* Scale up */
+    opacity: 0.8; /* Slightly transparent */
+  }
+  100% {
+    transform: scale(1); /* Scale back to original size */
+    opacity: 1; /* Fully opaque */
+  }
+}
+</style>
+<nav>
+	<h1 class="animated-heading">Best Movies To Watch This Month</h1>
+  <a href="new.html">Home</a>
+  <a href="movie.html">Movies</a>
+    <a href="Tv.html">Tv</a>
+    <a href="Music.html">Music</a>
+    <a href="OTT.html">OTT</a>
+</nav>
+<body>
+   <div class="container">
+    <div class="image-container">
+      <a href="https://www.hotstar.com/in/movies/kannur-squad/1260156780"><img src="https://www.mathrubhumi.com/image/contentid/policy:1.8481799:1681622625/Kannur%20Squad.jpg?$p=f2196a4&f=16x10&w=852&q=0.8" alt="Kalki Movie"></a>
+      <a href="https://www.netflix.com/in/title/81639319"><img src="https://static.toiimg.com/thumb/msid-101172246,width-1280,height-720,resizemode-4/101172246.jpg" alt="Salaar Movies" width="100px" height="100px"></a>
+    </div>
+    
+
+    <div class="image-container">
+      <a href="https://www.zee5.com/movies/details/hanu-man/0-0-1z5531939"><img src="https://www.thehansindia.com/content/servlet/RDESController?command=rdm.Picture&sessionId=RDWEB1AIKXTDV89KYQWWHPZVMVAGIZLKGW0FO&app=rdes&partner=hansindia&type=7&uid=21128u59vVIrIxhZNjWRV11q7Picsapyuf4pb1163703&width=1600&height=960" alt="Devara Movie"></a>
+      <a href="https://www.netflix.com/in/title/81671558"><img src="https://assets-in.bmscdn.com/discovery-catalog/events/et00340798-gbledahbjw-landscape.jpg" alt="Leo Movies" width="70px" height="60px"></a>
+    </div>
+   
+
+    <div class="image-container">
+      <a href="https://www.netflix.com/in/title/81476453"><img src="https://filmfare.wwmindia.com/content/2022/apr/rrr-movie-poster.jpg" alt="Jawan Movie"></a>
+      <a href="https://www.primevideo.com/detail/KGF-Chapter-2-Hindi/0OLFV66669RCQ9BSC7YCWOZA6S"><img src="https://static.toiimg.com/photo/90518208.cms" alt="Jawan Movies" width="70px" height="60px"></a>
+    </div>
+    
+</div>
+<footer>
+  <center><h3>copyrights@2003</h3></center>
+<p>Contact Us:<a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSDbhMjQsLCtqpNJvhQsRPxdpsdjKFkmVNVVrwLpkKndXzCpftLSJxGXmJPlNhtVkWMjLPTl">pavanrebel54@gmail.com <br></a>
+Phone no: 8558694090</p>
+</footer>
+
+
+</body>
+</html>

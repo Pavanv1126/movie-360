@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign up form validation</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body style="font-family: Arial, sans-serif; background-color: #f2f2f2; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+    <div class="container" style="background-color: #fff; padding: 20px; width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+      <div class="header" style="margin-bottom: 20px;">
+        <center><h2 style="color: #333;">OTT Signup</h2></center>
+      </div>
+      <form class="form" id="form">
+        <div class="form-control" style="margin-bottom: 15px; position: relative;">
+          <input type="text" placeholder="Username" id="username" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;">
+          <small style="color: red; display: none; position: absolute; bottom: -18px; left: 0; font-size: 12px;">Error Message</small>
+        </div>
+        <div class="form-control" style="margin-bottom: 15px; position: relative;">
+          <input type="email" placeholder="Email Id" id="email" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;">
+          <small style="color: red; display: none; position: absolute; bottom: -18px; left: 0; font-size: 12px;">Error Message</small>
+        </div>
+        <div class="form-control" style="margin-bottom: 15px; position: relative;">
+          <input type="password" placeholder="Password" id="password" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;">
+          <small style="color: red; display: none; position: absolute; bottom: -18px; left: 0; font-size: 12px;">Error Message</small>
+        </div>
+        <div class="form-control" style="margin-bottom: 15px; position: relative;">
+          <input type="password" placeholder="Confirm Password" id="confirm" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;">
+          <small style="color: red; display: none; position: absolute; bottom: -18px; left: 0; font-size: 12px;">Error Message</small>
+        </div>
+        <button type="submit" style="width: 100%; padding: 10px; border: none; border-radius: 5px; background-color: #333; color: #fff; font-size: 16px; cursor: pointer;">Submit</button>
+        <center style="margin-top: 10px;">
+          <p style="font-size: 14px; color: #555;">Already have an account? <a href="OTT.html" style="color: #333; text-decoration: none;">Log In</a></p>
+        </center>
+      </form>
+    </div>
+  </body>
+</html>

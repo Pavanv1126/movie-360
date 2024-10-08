@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Interface</title>
+    <link rel="stylesheet" href="C:\Users\pavan\Downloads\pay.css">
+</head>
+<style>
+    body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="payment-box">
+            <div class="package-options"><br><br><br>
+                <center>   <h1>Subscription Plans  </h1>
+                    <select id="package-select">
+                        <option value="combined">Combined Pack (All OTTs)</option>
+                        <option value="any_four">Any Four OTTs Pack</option>
+                        <option value="any_three">Any Three OTTs Pack</option>
+                        <option value="any_two">Any Two OTTs Pack</option></select></center>
+            <div class="subscription-options">
+                  <center>  <h2>Subscription  </h2>
+                    <select id="package-select">
+                        <option value="combined">Monthly</option>
+                        <option value="any_four">6 Months</option>
+                        <option value="any_three">Yearly</option></select></center>
+
+            <center><h1>Select Payment Method</h1></center>
+            <div class="payment-options">
+                <center><label class="payment-option">
+                    <input type="radio" name="payment" value="card" checked>
+                    Card Payment
+                </label>
+                <label class="payment-option">
+                    <input type="radio" name="payment" value="upi">
+                    UPI Payment
+                </label></center>
+            </div>
+            <div class="payment-details">
+                <div id="card-details" class="payment-detail">
+                   <center> <h2>Card Details</h2></center>
+                   <center> <input type="text" placeholder="Card Number"><br><br>
+                    <input type="text" placeholder="Expiration Date (MM/YY)"><br><br>
+                    <input type="text" placeholder="CVV"></center><br>
+                    <center><button type="button">Pay</button></center>
+                </div><center><h3>OR</h3></center>
+                <div id="upi-details" class="payment-detail">
+                    <center><h2>UPI ID</h2></center>
+                    <center><input type="text" placeholder="Enter UPI ID">
+                </div></center>
+            </div>
+            <div class="coupon">
+                    <center><h3>Apply Coupon</h3>
+                    <input type="text" placeholder="Enter coupon code">&nbsp;&nbsp;
+                    <button type="button">Apply</button>
+                </div></center><br>
+            <center><button type="submit">Pay Now</button></center>
+        </div>
+    </div>
+</body>
+</html>
